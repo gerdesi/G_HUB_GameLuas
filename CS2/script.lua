@@ -5,10 +5,10 @@
 ------------------------------- One Tap -------------------------------
 
 --Rifle:
-ak47 = 5
+ak47 = 0
 m4a1key = 0
 m4a4key = 0
-galilkey = 4
+galilkey = 0
 famaskey = 0
 sg553key = 0
 augkey = 0
@@ -33,8 +33,8 @@ negevkey = 0
 
 --Rifle:
 ak472 = 0
-m4a1key2 = 4
-m4a4key2 = 5
+m4a1key2 = 0
+m4a4key2 = 0
 galilkey2 = 0
 famaskey2 = 0
 sg553key2 = 0
@@ -63,9 +63,9 @@ ak47_S_key = 0
 m4a1_S_key = 0
 m4a4_S_key = 0
 galil_S_key = 0
-famas_S_key = 4
+famas_S_key = 0
 sg553_S_key = 0
-aug_S_key = 5
+aug_S_key = 0
 
 --SMG:
 mp9_S_key = 0
