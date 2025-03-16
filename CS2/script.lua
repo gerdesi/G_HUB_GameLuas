@@ -1,89 +1,95 @@
 --LeftUP=5
 --LeftDN=4
 --Mid=3
---Second=L_Ctrl
-------------------------------- One Tap -------------------------------
+weaponKeys = {
+    AK47_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
 
---Rifle:
-ak47key = 0
-m4a1key = 0
-m4a4key = 0
-galilkey = 0
-famaskey = 0
-sg553key = 0
-augkey = 0
+    M4A4_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    M4A1_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    GALIL_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    FAMAS_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    SG553_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    AUG_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    MP9_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    MAC10_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    UMP45_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    MP7_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    MP5_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    BIZON_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    P90_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    CZ75_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    M249_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    },
+    NEGEV_Key = {
+        single = 0,
+        double = 0,
+        second = 0
+    }
+}
 
---SMG:
-mp9key = 0
-mac10key = 0
-ump45key = 0
-mp7key = 0
-mp5sdkey = 0
-bizonkey = 0
-p90key = 0
-
---Pistol:
-cz75key = 0
-
---Other:
-m249key = 0
-negevkey = 0
-
-------------------------------- Double Tap -------------------------------
-
---Rifle:
-ak47key2 = 0
-m4a1key2 = 0
-m4a4key2 = 0
-galilkey2 = 0
-famaskey2 = 0
-sg553key2 = 0
-augkey2 = 0
-
---SMG:
-mp9key2 = 0
-mac10key2 = 0
-ump45key2 = 0
-mp7key2 = 0
-mp5sdkey2 = 0
-bizonkey2 = 0
-p90key2 = 0
-
---Pistol:
-cz75key2 = 0
-
---Other:
-m249key2 = 0
-negevkey2 = 0
-
-------------------------------- Second Key + Tap -------------------------------
-
---Rifle:
-ak47_S_key = 0
-m4a1_S_key = 0
-m4a4_S_key = 0
-galil_S_key = 0
-famas_S_key = 0
-sg553_S_key = 0
-aug_S_key = 0
-
---SMG:
-mp9_S_key = 0
-mac10_S_key = 0
-ump45_S_key = 0
-mp7_S_key = 0
-mp5sd_S_key = 0
-bizon_S_key = 0
-p90_S_key = 0
-
---Pistol:
-cz75_S_key = 0
-
---Other:
-m249_S_key = 0
-negev_S_key = 0
-
-------------------------------- Reset Key -------------------------------
 offkey = 3
 
 
@@ -106,8 +112,11 @@ ump45 = {{x=0, y=0, d=2}, {x=0, y=0, d=2}, {x=0, y=0, d=2}, {x=0, y=0, d=2}, {x=
 negev = {{x=0, y=0, d=4},{x=0,y=1,d=6},{x=0,y=1,d=6},{x=0,y=1,d=6},{x=0,y=1,d=6},{x=0,y=1,d=6},{x=0,y=1,d=6},{x=0,y=2,d=22},{x=0,y=2,d=22},{x=0,y=2,d=22},{x=0,y=2,d=22},{x=0,y=2,d=22},{x=0,y=2,d=22},{x=0,y=5,d=11},{x=0,y=5,d=11},{x=0,y=5,d=11},{x=0,y=5,d=11},{x=0,y=5,d=11},{x=0,y=5,d=11},{x=0,y=6,d=12},{x=0,y=6,d=12},{x=0,y=6,d=12},{x=0,y=6,d=12},{x=0,y=6,d=12},{x=0,y=6,d=12},{x=0,y=6,d=11},{x=0,y=6,d=11},{x=0,y=6,d=11},{x=0,y=6,d=11},{x=0,y=6,d=11},{x=0,y=6,d=11},{x=0,y=7,d=13},{x=0,y=7,d=13},{x=0,y=7,d=13},{x=0,y=7,d=13},{x=0,y=7,d=13},{x=0,y=7,d=13},{x=0,y=6,d=13},{x=0,y=6,d=13},{x=0,y=6,d=13},{x=0,y=6,d=13},{x=0,y=6,d=13},{x=0,y=6,d=13},{x=0,y=5,d=12},{x=0,y=5,d=12},{x=0,y=5,d=12},{x=0,y=5,d=12},{x=0,y=5,d=12},{x=0,y=5,d=12},{x=0,y=5,d=13},{x=0,y=5,d=13},{x=0,y=5,d=13},{x=0,y=5,d=13},{x=0,y=5,d=13},{x=0,y=5,d=13},{x=0,y=4,d=11},{x=0,y=4,d=11},{x=0,y=4,d=11},{x=0,y=4,d=11},{x=0,y=4,d=11},{x=0,y=4,d=11},{x=0,y=2,d=13},{x=0,y=2,d=13},{x=0,y=2,d=13},{x=0,y=2,d=13},{x=0,y=2,d=13},{x=0,y=2,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13},{x=0,y=1,d=13}}
 
 
-StopCode = "Ralt"
-Second="Lctrl"
+
+
+
+StopKey = "Ralt"
+Second = "Lctrl"
 mode = 2		
 round = 30	
 speed = 2 	
@@ -134,12 +143,66 @@ i = 0
 flag = 0
 flag2 = 1
 timestart = 0
-timebegin = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
-timeend = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+timebegin = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+timeend = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
 Wpattern = {ak47, galil, sg553, m4a4, m4a1, famas, aug, mp9, mac10, ump45, mp7, mp5sd, bizon, p90, cz75, m249, negev}
-Wkey0 = {ak47_S_key,galil_S_key,sg553_S_key,m4a1_S_key,m4a4_S_key,famas_S_key,aug_S_key,mp9_S_key,mac10_S_key,ump45_S_key,mp7_S_key,mp5sd_S_key,bizon_S_key,p90_S_key,cz75_S_key,m249_S_key,negev_S_key}
-Wkey1 = {ak47key, galilkey, sg553key, m4a4key, m4a1key, famaskey, augkey, mp9key, mac10key, ump45key, mp7key, mp5sdkey, bizonkey, p90key, cz75key, m249key, negevkey}
-Wkey2 = {ak47key2, galilkey2, sg553key2, m4a4key2, m4a1key2, famaskey2, augkey2, mp9key2, mac10key2, ump45key2, mp7key2, mp5sdkey2, bizonkey2, p90key2, cz75key2, m249key2, negevkey2}
+Wkey0 = {
+    weaponKeys.AK47_Key.second,
+    weaponKeys.GALIL_Key.second,
+    weaponKeys.SG553_Key.second,
+    weaponKeys.M4A4_Key.second,
+    weaponKeys.M4A1_Key.second,
+    weaponKeys.FAMAS_Key.second,
+    weaponKeys.AUG_Key.second,
+    weaponKeys.MP9_Key.second,
+    weaponKeys.MAC10_Key.second,
+    weaponKeys.UMP45_Key.second,
+    weaponKeys.MP7_Key.second,
+    weaponKeys.MP5_Key.second,
+    weaponKeys.BIZON_Key.second,
+    weaponKeys.P90_Key.second,
+    weaponKeys.CZ75_Key.second,
+    weaponKeys.M249_Key.second,
+    weaponKeys.NEGEV_Key.second
+}
+Wkey1 = {
+    weaponKeys.AK47_Key.single,
+    weaponKeys.GALIL_Key.single,
+    weaponKeys.SG553_Key.single,
+    weaponKeys.M4A4_Key.single,
+    weaponKeys.M4A1_Key.single,
+    weaponKeys.FAMAS_Key.single,
+    weaponKeys.AUG_Key.single,
+    weaponKeys.MP9_Key.single,
+    weaponKeys.MAC10_Key.single,
+    weaponKeys.UMP45_Key.single,
+    weaponKeys.MP7_Key.single,
+    weaponKeys.MP5_Key.single,
+    weaponKeys.BIZON_Key.single,
+    weaponKeys.P90_Key.single,
+    weaponKeys.CZ75_Key.single,
+    weaponKeys.M249_Key.single,
+    weaponKeys.NEGEV_Key.single
+}
+Wkey2 = {
+    weaponKeys.AK47_Key.double,
+    weaponKeys.GALIL_Key.double,
+    weaponKeys.SG553_Key.double,
+    weaponKeys.M4A4_Key.double,
+    weaponKeys.M4A1_Key.double,
+    weaponKeys.FAMAS_Key.double,
+    weaponKeys.AUG_Key.double,
+    weaponKeys.MP9_Key.double,
+    weaponKeys.MAC10_Key.double,
+    weaponKeys.UMP45_Key.double,
+    weaponKeys.MP7_Key.double,
+    weaponKeys.MP5_Key.double,
+    weaponKeys.BIZON_Key.double,
+    weaponKeys.P90_Key.double,
+    weaponKeys.CZ75_Key.double,
+    weaponKeys.M249_Key.double,
+    weaponKeys.NEGEV_Key.double
+}
 EnablePrimaryMouseButtonEvents(true)
 function OnEvent(event, arg)
 	if (wireless) then
@@ -151,7 +214,7 @@ function OnEvent(event, arg)
 			SetMKeyState(3)
 			break
 		end
-		if (indexWeapon > 0 and indexWeapon < 17 and not IsModifierPressed(StopCode)) then
+		if (indexWeapon > 0 and indexWeapon < 17 and not IsModifierPressed(StopKey)) then
 			if indexPattern < #Wpattern[indexWeapon] then
 				if indexPattern == 1 then
 					timestart = GetRunningTime()
@@ -272,14 +335,241 @@ function OnEvent(event, arg)
 				temp = 1
 				flag = 1
 				ClearLog()
-OutputLogMessage("AK47")
+				OutputLogMessage("AK47")
 			elseif (arg == Wkey1[1]) then
 				indexWeapon = 1
 				temp = 1
 				flag = 1
 				ClearLog()
-OutputLogMessage("AK47")			
+OutputLogMessage("AK47")
 			end
+
+			if (arg == Wkey0[2] and IsModifierPressed(Second))then
+				indexWeapon = 2
+				temp = 2
+				flag = 1
+				ClearLog()
+				OutputLogMessage(" GALIL")	
+			elseif (arg == Wkey1[2]) then
+				indexWeapon = 2
+				temp = 2
+				flag = 1
+				ClearLog()
+OutputLogMessage("GALIL")
+			end
+
+			if (arg == Wkey0[3] and IsModifierPressed(Second))then
+				indexWeapon = 3
+				temp = 3
+				flag = 1
+				ClearLog()
+				OutputLogMessage("SG553")		
+			elseif (arg == Wkey1[3]) then
+				indexWeapon = 3
+				temp = 3
+				flag = 1
+				ClearLog()
+OutputLogMessage("SG553")
+			end
+			
+			if (arg == Wkey0[4] and IsModifierPressed(Second))then
+				indexWeapon = 4
+				temp = 4
+				flag = 1
+				ClearLog()
+				OutputLogMessage("MAA4")
+			elseif (arg == Wkey1[4]) then
+				indexWeapon = 4
+				temp = 4
+				flag = 1
+				ClearLog()
+OutputLogMessage("M4A4")
+			end
+
+			if (arg == Wkey0[5] and IsModifierPressed(Second))then
+				indexWeapon = 5
+				temp = 5
+				flag = 1
+				ClearLog()
+				OutputLogMessage("M4A1")
+			elseif (arg == Wkey1[5]) then
+				indexWeapon = 5
+				temp = 5
+				flag = 1
+				ClearLog()
+OutputLogMessage("M4A1")
+			end
+
+			if (arg == Wkey0[6] and IsModifierPressed(Second))then
+				indexWeapon = 6
+				temp = 6
+				flag = 1
+				ClearLog()
+				OutputLogMessage("FAMAS")	
+			elseif (arg == Wkey1[6]) then
+				indexWeapon = 6
+				temp = 6
+				flag = 1
+				ClearLog()
+OutputLogMessage("FAMAS")
+
+			end
+			if (arg == Wkey0[7] and IsModifierPressed(Second))then
+				indexWeapon = 7
+				temp = 7
+				flag = 1
+				ClearLog()
+				OutputLogMessage("AUG")	
+			elseif (arg == Wkey1[7]) then
+				indexWeapon = 7
+				temp = 7
+				flag = 1
+				ClearLog()
+OutputLogMessage("AUG")
+			end
+
+			if (arg == Wkey0[8] and IsModifierPressed(Second))then
+				indexWeapon = 8
+				temp = 8
+				flag = 1
+				ClearLog()
+				OutputLogMessage("MP9")			
+			elseif (arg == Wkey1[8]) then
+				indexWeapon = 8
+				temp = 8
+				flag = 1
+				ClearLog()
+OutputLogMessage("MP9")
+			end
+
+			if (arg == Wkey0[9] and IsModifierPressed(Second))then
+				indexWeapon = 9
+				temp = 9
+				flag = 1
+				ClearLog()
+				OutputLogMessage("MAC10")
+			elseif (arg == Wkey1[9]) then
+				indexWeapon = 9
+				temp = 9
+				flag = 1
+				ClearLog()
+OutputLogMessage("MAC10")
+			end
+
+			if (arg == Wkey0[10] and IsModifierPressed(Second))then
+				indexWeapon = 10
+				temp = 10
+				flag = 1
+				ClearLog()
+				OutputLogMessage("UMP45")		
+			elseif (arg == Wkey1[10]) then
+				indexWeapon = 10
+				temp = 10
+				flag = 1
+				ClearLog()
+OutputLogMessage("UMP45")
+			end
+
+			if (arg == Wkey0[11] and IsModifierPressed(Second))then
+				indexWeapon = 11
+				temp = 11
+				flag = 1
+				ClearLog()
+				OutputLogMessage("MP7")
+			elseif (arg == Wkey1[11]) then
+				indexWeapon = 11
+				temp = 11
+				flag = 1
+				ClearLog()
+OutputLogMessage("MP7")
+			end
+
+			if (arg == Wkey0[12] and IsModifierPressed(Second))then
+				indexWeapon = 12
+				temp = 12
+				flag = 1
+				ClearLog()
+				OutputLogMessage("MP5")
+			elseif (arg == Wkey1[12]) then
+				indexWeapon = 12
+				temp = 12
+				flag = 1
+				ClearLog()
+OutputLogMessage("MP5")
+
+			end
+			if (arg == Wkey0[13] and IsModifierPressed(Second))then
+				indexWeapon = 13
+				temp = 13
+				flag = 1
+				ClearLog()
+				OutputLogMessage("BIZON")
+			elseif (arg == Wkey1[13]) then
+				indexWeapon = 13
+				temp = 13
+				flag = 1
+				ClearLog()
+OutputLogMessage("BIZON")
+			end
+
+			if (arg == Wkey0[14] and IsModifierPressed(Second))then
+				indexWeapon = 14
+				temp = 14
+				flag = 1
+				ClearLog()
+				OutputLogMessage("P90")			
+			elseif (arg == Wkey1[14]) then
+				indexWeapon = 14
+				temp = 14
+				flag = 1
+				ClearLog()
+OutputLogMessage("P90")
+			end
+
+			if (arg == Wkey0[15] and IsModifierPressed(Second))then
+				indexWeapon = 15
+				temp = 15
+				flag = 1
+				ClearLog()
+				OutputLogMessage("CZ75")	
+			elseif (arg == Wkey1[15]) then
+				indexWeapon = 15
+				temp = 15
+				flag = 1
+				ClearLog()
+OutputLogMessage("CZ75")
+			end
+
+			if (arg == Wkey0[16] and IsModifierPressed(Second))then
+				indexWeapon = 16
+				temp = 16
+				flag = 1
+				ClearLog()
+				OutputLogMessage("M249")		
+			elseif (arg == Wkey1[16]) then
+				indexWeapon = 16
+				temp = 16
+				flag = 1
+				ClearLog()
+OutputLogMessage("M249")
+			end
+
+			if (arg == Wkey0[17] and IsModifierPressed(Second))then
+				indexWeapon = 17
+				temp = 17
+				flag = 1
+				ClearLog()
+				OutputLogMessage("NEGEV")
+			elseif (arg == Wkey1[17]) then
+				indexWeapon = 17
+				temp = 17
+				flag = 1
+				ClearLog()
+OutputLogMessage("NEGEV")
+			end
+
+
+
 			if (arg == Wkey2[1]) then
 				timeend[1] = GetRunningTime()
 				if (timeend[1] - timebegin[1]) < 300 then
@@ -292,19 +582,6 @@ OutputLogMessage("AK47")
 				timebegin[1] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[2] and IsModifierPressed(Second))then
-				indexWeapon = 2
-				temp = 2
-				flag = 1
-				ClearLog()
-OutputLogMessage("GALIL")
-			elseif (arg == Wkey1[2]) then
-				indexWeapon = 2
-				temp = 2
-				flag = 1
-				ClearLog()
-OutputLogMessage("GALIL")
-			end
 			if (arg == Wkey2[2]) then
 				timeend[2] = GetRunningTime()
 				if (timeend[2] - timebegin[2]) < 400 then
@@ -317,19 +594,6 @@ OutputLogMessage("GALIL")
 				timebegin[2] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[3] and IsModifierPressed(Second))then
-				indexWeapon = 3
-				temp = 3
-				flag = 1
-				ClearLog()
-OutputLogMessage("SG553")
-			elseif (arg == Wkey1[3]) then
-				indexWeapon = 3
-				temp = 3
-				flag = 1
-				ClearLog()
-OutputLogMessage("SG553")
-			end
 			if (arg == Wkey2[3]) then
 				timeend[3] = GetRunningTime()
 				if (timeend[3] - timebegin[3]) < 400 then
@@ -341,20 +605,7 @@ OutputLogMessage("SG553")
 				end
 				timebegin[3] = GetRunningTime()
 			end
-			
-			if (arg == Wkey0[4] and IsModifierPressed(Second))then
-				indexWeapon = 4
-				temp = 4
-				flag = 1
-				ClearLog()
-OutputLogMessage("MAA4")
-			elseif (arg == Wkey1[4]) then
-				indexWeapon = 4
-				temp = 4
-				flag = 1
-				ClearLog()
-OutputLogMessage("M4A4")
-			end
+
 			if (arg == Wkey2[4]) then
 				timeend[4] = GetRunningTime()
 				if (timeend[4] - timebegin[4]) < 400 then
@@ -367,19 +618,6 @@ OutputLogMessage("M4A4")
 				timebegin[4] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[5] and IsModifierPressed(Second))then
-				indexWeapon = 5
-				temp = 5
-				flag = 1
-				ClearLog()
-OutputLogMessage("M4A1")
-			elseif (arg == Wkey1[5]) then
-				indexWeapon = 5
-				temp = 5
-				flag = 1
-				ClearLog()
-OutputLogMessage("M4A1")
-			end
 			if (arg == Wkey2[5]) then
 				timeend[5] = GetRunningTime()
 				if (timeend[5] - timebegin[5]) < 400 then
@@ -392,19 +630,6 @@ OutputLogMessage("M4A1")
 				timebegin[5] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[6] and IsModifierPressed(Second))then
-				indexWeapon = 6
-				temp = 6
-				flag = 1
-				ClearLog()
-OutputLogMessage("FAMAS")
-			elseif (arg == Wkey1[6]) then
-				indexWeapon = 6
-				temp = 6
-				flag = 1
-				ClearLog()
-OutputLogMessage("FAMAS")
-			end
 			if (arg == Wkey2[6]) then
 				timeend[6] = GetRunningTime()
 				if (timeend[6] - timebegin[6]) < 400 then
@@ -417,19 +642,6 @@ OutputLogMessage("FAMAS")
 				timebegin[6] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[7] and IsModifierPressed(Second))then
-				indexWeapon = 7
-				temp = 7
-				flag = 1
-				ClearLog()
-OutputLogMessage("AUG")
-			elseif (arg == Wkey1[7]) then
-				indexWeapon = 7
-				temp = 7
-				flag = 1
-				ClearLog()
-OutputLogMessage("AUG")
-			end
 			if (arg == Wkey2[7]) then
 				timeend[7] = GetRunningTime()
 				if (timeend[7] - timebegin[7]) < 400 then
@@ -442,19 +654,6 @@ OutputLogMessage("AUG")
 				timebegin[7] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[8] and IsModifierPressed(Second))then
-				indexWeapon = 8
-				temp = 8
-				flag = 1
-				ClearLog()
-OutputLogMessage("MP9")
-			elseif (arg == Wkey1[8]) then
-				indexWeapon = 8
-				temp = 8
-				flag = 1
-				ClearLog()
-OutputLogMessage("MP9")
-			end
 			if (arg == Wkey2[8]) then
 				timeend[8] = GetRunningTime()
 				if (timeend[8] - timebegin[8]) < 400 then
@@ -467,19 +666,6 @@ OutputLogMessage("MP9")
 				timebegin[8] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[9] and IsModifierPressed(Second))then
-				indexWeapon = 9
-				temp = 9
-				flag = 1
-				ClearLog()
-OutputLogMessage("MAC10")
-			elseif (arg == Wkey1[9]) then
-				indexWeapon = 9
-				temp = 9
-				flag = 1
-				ClearLog()
-OutputLogMessage("MAC10")
-			end
 			if (arg == Wkey2[9]) then
 				timeend[9] = GetRunningTime()
 				if (timeend[9] - timebegin[9]) < 400 then
@@ -492,19 +678,6 @@ OutputLogMessage("MAC10")
 				timebegin[9] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[10] and IsModifierPressed(Second))then
-				indexWeapon = 10
-				temp = 10
-				flag = 1
-				ClearLog()
-OutputLogMessage("UMP45")
-			elseif (arg == Wkey1[10]) then
-				indexWeapon = 10
-				temp = 10
-				flag = 1
-				ClearLog()
-OutputLogMessage("UMP45")
-			end
 			if (arg == Wkey2[10]) then
 				timeend[10] = GetRunningTime()
 				if (timeend[10] - timebegin[10]) < 400 then
@@ -517,19 +690,6 @@ OutputLogMessage("UMP45")
 				timebegin[10] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[11] and IsModifierPressed(Second))then
-				indexWeapon = 11
-				temp = 11
-				flag = 1
-				ClearLog()
-OutputLogMessage("MP7")
-			elseif (arg == Wkey1[11]) then
-				indexWeapon = 11
-				temp = 11
-				flag = 1
-				ClearLog()
-OutputLogMessage("MP7")
-			end
 			if (arg == Wkey2[11]) then
 				timeend[11] = GetRunningTime()
 				if (timeend[11] - timebegin[11]) < 400 then
@@ -542,19 +702,6 @@ OutputLogMessage("MP7")
 				timebegin[11] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[12] and IsModifierPressed(Second))then
-				indexWeapon = 12
-				temp = 12
-				flag = 1
-				ClearLog()
-OutputLogMessage("MP5SD")
-			elseif (arg == Wkey1[12]) then
-				indexWeapon = 12
-				temp = 12
-				flag = 1
-				ClearLog()
-OutputLogMessage("MP5SD")
-			end
 			if (arg == Wkey2[12]) then
 				timeend[12] = GetRunningTime()
 				if (timeend[12] - timebegin[12]) < 400 then
@@ -562,24 +709,11 @@ OutputLogMessage("MP5SD")
 					temp = 12
 					flag = 1
 					ClearLog()
-OutputLogMessage("MP5SD")
+OutputLogMessage("MP5")
 				end
 				timebegin[12] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[13] and IsModifierPressed(Second))then
-				indexWeapon = 13
-				temp = 13
-				flag = 1
-				ClearLog()
-OutputLogMessage("BIZON")
-			elseif (arg == Wkey1[13]) then
-				indexWeapon = 13
-				temp = 13
-				flag = 1
-				ClearLog()
-OutputLogMessage("BIZON")
-			end
 			if (arg == Wkey2[13]) then
 				timeend[13] = GetRunningTime()
 				if (timeend[13] - timebegin[13]) < 400 then
@@ -592,19 +726,6 @@ OutputLogMessage("BIZON")
 				timebegin[13] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[14] and IsModifierPressed(Second))then
-				indexWeapon = 14
-				temp = 14
-				flag = 1
-				ClearLog()
-OutputLogMessage("P90")
-			elseif (arg == Wkey1[14]) then
-				indexWeapon = 14
-				temp = 14
-				flag = 1
-				ClearLog()
-OutputLogMessage("P90")
-			end
 			if (arg == Wkey2[14]) then
 				timeend[14] = GetRunningTime()
 				if (timeend[14] - timebegin[14]) < 400 then
@@ -617,19 +738,6 @@ OutputLogMessage("P90")
 				timebegin[14] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[15] and IsModifierPressed(Second))then
-				indexWeapon = 15
-				temp = 15
-				flag = 1
-				ClearLog()
-OutputLogMessage("CZ75")
-			elseif (arg == Wkey1[15]) then
-				indexWeapon = 15
-				temp = 15
-				flag = 1
-				ClearLog()
-OutputLogMessage("CZ75")
-			end
 			if (arg == Wkey2[15]) then
 				timeend[15] = GetRunningTime()
 				if (timeend[15] - timebegin[15]) < 400 then
@@ -642,19 +750,6 @@ OutputLogMessage("CZ75")
 				timebegin[15] = GetRunningTime()
 			end
 
-			if (arg == Wkey0[16] and IsModifierPressed(Second))then
-				indexWeapon = 16
-				temp = 16
-				flag = 1
-				ClearLog()
-OutputLogMessage("M249")
-			elseif (arg == Wkey1[16]) then
-				indexWeapon = 16
-				temp = 16
-				flag = 1
-				ClearLog()
-OutputLogMessage("M249")
-			end
 			if (arg == Wkey2[16]) then
 				timeend[16] = GetRunningTime()
 				if (timeend[16] - timebegin[16]) < 400 then
@@ -665,6 +760,18 @@ OutputLogMessage("M249")
 OutputLogMessage("M249")
 				end
 				timebegin[16] = GetRunningTime()
+			end
+
+			if (arg == Wkey2[17]) then
+				timeend[17] = GetRunningTime()
+				if (timeend[17] - timebegin[17]) < 400 then
+					indexWeapon = 17
+					temp = 17
+					flag = 1
+					ClearLog()
+OutputLogMessage("NEGEV")
+				end
+				timebegin[17] = GetRunningTime()
 			end
 
 			if (not IsKeyLockOn("scrolllock")) and flag == 1 then
