@@ -281,7 +281,7 @@ function OnEvent(event, arg)
 			end
 			indexWeapon = temp
 			ClearLog()
-			OutputLogMessage("ON\N")
+			OutputLogMessage("on\n")
 		end
 	end
 	if (event == "MOUSE_BUTTON_RELEASED" and indexWeapon ~= 17 and indexWeapon ~= 0) then
